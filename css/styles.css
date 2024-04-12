@@ -39,7 +39,7 @@ header {
     padding: 12px 8px 12px;
     border-radius: 10px;
 }
-i {
+.fa-magnifying-glass {
     font-size: 30.5px;
     color: #758BFD;
 }
@@ -51,10 +51,12 @@ section {
 .title {
     font-size: 32px;
     font-weight: 700;
-    font-family: "Ubuntu", sans-serif;
     line-height: 36.77px;
     color: #27187F;
     margin-bottom: 68px;
+}
+.title, .text {
+    font-family: "Ubuntu", sans-serif;
 }
 .card_container {
     display: flex;
@@ -62,6 +64,7 @@ section {
     column-gap: 18px;
     row-gap: 51px;
     justify-content: center;
+    align-content: center;
 }
 .card {
     padding: 30px 33px;
@@ -74,10 +77,44 @@ section {
     height: 188px;
 }
 .text {
-    font-family: "Ubuntu", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 22.98px;
     color: #133B3A;
     margin-top: 33px;
+}
+/* footer */
+footer {
+    background-color: #758BFD;
+    padding: 75px 98px 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.footer_text {
+    font-family: Century Gothic;
+    font-size: 20px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.a_footer {
+    display: flex;
+}
+.icons_foot {
+    display:  flex;
+    width: 114px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.contact_icon {
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.cards_footer {
+    display:  flex;
+    column-gap: 8px;
+}
+.credit_card {
+    border-radius: 8px;
 }
