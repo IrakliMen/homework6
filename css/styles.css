@@ -3,7 +3,6 @@
     margin: auto;
 }
 header {  
-    /* background-color: aquamarine; */
     padding: 52px 98px;
     display: flex;
     justify-content: space-between;
@@ -24,7 +23,7 @@ header {
     color: #27187F;
 }
 .logo_link {
-    display: flex;
+    display: inline-flex;
 }
 .logo {
     font-size: 46px;
@@ -99,7 +98,7 @@ footer {
     color: #FFFFFF;
 }
 .a_footer {
-    display: flex;
+    display: inline-flex;
 }
 .icons_foot {
     display:  flex;
